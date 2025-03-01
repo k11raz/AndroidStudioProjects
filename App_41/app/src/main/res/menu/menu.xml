@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/convertReverse"
+        android:title="Convert Reverse"
+        android:icon="@drawable/baseline_done_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/ktof"
+        android:title="K to F"
+        app:showAsAction="never"/>
+    <item android:id="@+id/ftok"
+        android:title="F to K"
+        app:showAsAction="never"/>
+    <item android:id="@+id/ctok"
+        android:title="C to K"
+        app:showAsAction="never"/>
+    <item android:id="@+id/ktoc"
+        android:title="K to C"
+        app:showAsAction="never"/>
+    <item android:id="@+id/ftoc"
+        android:title="F to C"
+        app:showAsAction="never"/>
+    <item android:id="@+id/ctof"
+        android:title="C to F"
+        app:showAsAction="never"/>
+</menu>
